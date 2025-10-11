@@ -18,3 +18,5 @@
 ### Link C File:
 - clang -arch arm64 filename.c dependency.c -o execute_name
 
+## Compiling Process
+- Source -> **<Preprocessor>** -> *Preprocessed File (.i File)* -> **<Compiler>** -> *Assembly code (.s File)* -> **<Assembler>** -> *Object code (.o file)* -> **<Linker>** -> Executable
